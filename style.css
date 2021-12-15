@@ -362,6 +362,26 @@ a:hover {
     z-index: 2;
 }
 
+.titre-1{
+    font-size: 1.6em;
+    margin:6px 20%;
+}
+
+.titre-2{
+    font-size: 1.6em;
+    margin:0 27%;
+}
+
+.citation{
+    font-size: 1.45em;
+    margin: 0 8%;
+    font-style: italic;
+}
+
+small{
+    font-size: 1.1em;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
