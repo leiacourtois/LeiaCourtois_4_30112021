@@ -552,7 +552,6 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
     text-align: center;
 }
 
@@ -1049,8 +1048,20 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    } 
+
+    .images{
+            display: flex;
+            justify-content: center;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
 }
+
+   
 
 @media (max-width: 400px) {
     .bloc {
